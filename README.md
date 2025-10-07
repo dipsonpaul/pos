@@ -10,12 +10,10 @@ A comprehensive Point of Sale (POS) system built with Flutter that works both on
 - **Payment Processing**: Support for multiple payment methods (Cash, Card, UPI, Wallet)
 - **Customer Information**: Store customer name and phone number
 - **Tax Calculation**: Automatic tax calculation (10%)
-- **Discount Support**: Apply discounts to orders
 - **Receipt Generation**: Detailed order receipts
 
 ### 📊 Sales Management
 - **Sales History**: View all sales transactions
-- **Filtering**: Filter sales by date range and staff member
 - **Sales Analytics**: Total sales, transaction count, and average sale value
 - **Detailed Reports**: View individual sale details with items and totals
 
@@ -176,23 +174,6 @@ The app works seamlessly offline:
 - Location permissions for attendance tracking
 - Internet permission for Firebase sync
 
-### iOS
-- Location permissions (When In Use)
-- Network access for Firebase sync
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
 
 For support and questions, please open an issue in the repository.
 
