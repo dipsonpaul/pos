@@ -78,39 +78,6 @@ A comprehensive Point of Sale (POS) system built with Flutter that works both on
 5. **Run the app**
    ```bash
    flutter run
-   ```
-
-## Project Structure
-
-```
-lib/
-├── bloc/                    # BLoC state management
-│   ├── attendance/         # Attendance BLoC
-│   ├── pos/               # POS BLoC
-│   └── sales/             # Sales BLoC
-├── models/                 # Data models
-│   ├── attendance.dart    # Attendance model
-│   ├── product.dart       # Product model
-│   ├── sale.dart          # Sale model
-│   └── user.dart          # User model
-├── screens/               # UI screens
-│   ├── attendance_screen.dart
-│   ├── home_screen.dart
-│   ├── payment_dialog.dart
-│   ├── pos_screen.dart
-│   ├── sales_list_screen.dart
-│   └── setup_screen.dart
-├── services/              # Business logic services
-│   ├── connectivity_service.dart
-│   ├── firebase_service.dart
-│   ├── hive_service.dart
-│   ├── location_service.dart
-│   ├── sample_data_service.dart
-│   └── sync_service.dart
-└── main.dart              # App entry point
-```
-
-## Usage
 
 ### Initial Setup
 1. Launch the app
